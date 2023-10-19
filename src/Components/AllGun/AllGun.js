@@ -3,7 +3,7 @@ import SingleGun from '../SingleGun/SingleGun';
 
 const AllGun = ({ countIncrease }) => {
   const [guns, setGuns] = useState([]);
-  console.log(guns);
+  //   console.log(guns);
 
   useEffect(() => {
     fetch(`https://raw.githubusercontent.com/mir-hussain/guns/main/data.json`)
